@@ -1,0 +1,20 @@
+.menu {
+  width: 200px;
+  height: 100vh;
+  background-color: #15023a;
+  position: fixed;
+  top: 70px;
+  left: -200px;
+  //  we put -200px to the left so that it will hide from the page
+  z-index: 2;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 700;
+  align-items: center;
+  //for the side bar to open we add the active bar
+  &.active {
+    left: 0px;
+  }
+}

@@ -1,0 +1,29 @@
+.App {
+  top: 0;
+  .sections {
+    width: 100%;
+    position: relative;
+    height: calc(100vh - 70px);
+    top: 70px;
+    scroll-behavior: smooth;
+    overflow: scroll;
+    // overflow: scroll must be written to display the effect
+    scroll-snap-type: y mandatory;
+
+    //we dont have to scroll all the way to down,
+    //it will automatically be scrolled with its closed position
+    // here we are selecting all the elements inside of .sections
+    // then we calculated the remaining height using cacl function
+    // and we left the top margin of 70px so that we dont have to
+    //cacluated each height individually
+    &::-webkit-scrollbar {
+      display: none;
+      // it is the only way to hide scroll bar in chrome
+    }
+    > * {
+      width: 100%;
+      height: calc(100vh - 70px);
+      scroll-snap-align: end;
+    }
+  }
+}
