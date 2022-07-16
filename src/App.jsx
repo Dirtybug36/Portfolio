@@ -5,7 +5,7 @@ import Aboutme from "./components/about-me/Aboutme";
 import Contact from "./components/contact/Contact";
 import "./app.scss";
 import Menu from "./components/topbar/menu/menu";
-import { useState } from "react";
+import React, { useState } from "react";
 
 function App() {
   const [MenuOpen, setMenuOpen] = useState(false);

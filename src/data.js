@@ -1,88 +1,88 @@
 export const featuredPorfolio = [
   {
     id: 1,
-    title: "Pig game",
-    img: "assests/pussy.jpg",
+    title: "Clock",
+    img: "assests/clock.jpg",
   },
   {
     id: 2,
-    title: "Drum",
-    img: "assests/pussy.jpg",
+    title: "Gallery",
+    img: "assests/nepal.jpg",
   },
   {
     id: 3,
-    title: "Youtube-clone",
-    img: "assests/pussy.jpg",
+    title: "Youtube Clone",
+    img: "assests/youtube.jpg",
   },
   {
     id: 4,
-    title: "Flex-box",
-    img: "assests/pussy.jpg",
+    title: "PROJECT REACT",
+    img: "assests/react2.jpg",
   },
 ];
 export const htmlPortfolio = [
   {
     id: 1,
-    title: "Pig game",
-    img: "assests/pussy.jpg",
+    title: "Facebook Clone",
+    img: "assests/facebook.jpg",
   },
   {
     id: 2,
-    title: "Drum",
-    img: "assests/pussy.jpg",
+    title: "Google Clone",
+    img: "assests/google.jpg",
   },
   {
     id: 3,
-    title: "Youtube-clone",
-    img: "assests/pussy.jpg",
+    title: "Youtube Clone",
+    img: "assests/youtube.jpg",
   },
   {
     id: 4,
-    title: "Flex-box",
-    img: "assests/pussy.jpg",
+    title: "Image gallery",
+    img: "assests/nepal.jpg",
   },
 ];
 export const javascriptPortfolio = [
   {
     id: 1,
     title: "Pig game",
-    img: "assests/pussy.jpg",
+    img: "assests/dice.jpg",
   },
   {
     id: 2,
     title: "Drum",
-    img: "assests/pussy.jpg",
+    img: "assests/drum.jpg",
   },
   {
     id: 3,
-    title: "Youtube-clone",
-    img: "assests/pussy.jpg",
+    title: "Check Box",
+    img: "assests/check.jpg",
   },
   {
     id: 4,
-    title: "Flex-box",
-    img: "assests/pussy.jpg",
+    title: "Clock",
+    img: "assests/clock.jpg",
   },
 ];
 export const reactPorfolio = [
   {
     id: 1,
-    title: "Pig game",
-    img: "assests/pussy.jpg",
+    title: "COMING SOON..",
+    img: "assests/react1.jpg",
   },
   {
     id: 2,
-    title: "Drum",
-    img: "assests/pussy.jpg",
+    title: "COMING SOON..",
+    img: "assests/react2.jpg",
   },
   {
     id: 3,
-    title: "Youtube-clone",
-    img: "assests/pussy.jpg",
+    title: "COMING SOON..",
+    img: "assests/react3.jpg",
   },
-  {
-    id: 4,
-    title: "Flex-box",
-    img: "assests/pussy.jpg",
-  },
+  // {
+  //   id: 4,
+  //   title: "COMING SOON..",
+  //   img: "assests/react3.jpg",
+  // },
 ];

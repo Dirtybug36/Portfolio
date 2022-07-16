@@ -75,12 +75,13 @@
       img {
         height: 100%;
         width: 100%;
-        object-fit: cover;
+        object-fit: fill;
         border-radius: 20px;
         z-index: 1;
       }
       &:hover {
         background-color: black;
+        transform: scale(1.1);
         img {
           opacity: 0.2;
           z-index: 0;
